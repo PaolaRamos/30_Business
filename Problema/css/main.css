@@ -26,9 +26,16 @@ nav.navbar{
 	height: 100%;
 }
 .aqua{
-	color: #4775d1;
+	color: #80aaff;
 	font-weight: bold;
 }
-.padding{
-	padding: 9%;
+.icon{
+	font-size: 20%;
+}
+.bgo{
+	width: 100%;
+
+}
+.bolitas{
+	background-color: #00b8e6;
 }
