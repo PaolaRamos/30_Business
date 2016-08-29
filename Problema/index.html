@@ -13,15 +13,11 @@
 	  	<link rel="shortcut icon" href="favicon.ico">
 	</head>
 	<body>
-		<div class="container-fluid">
-			<header>
-				<div class="row fondo img-responsive">
+		<div class="container-fluid ">
+			<header class="fondo img-responsive">
+				<div class="row negro ">
 					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
 						<img src="image/user.png" class="logo img-responsive" alt="Logo">
-						<div class="jumbotron text-right blnc">
-							<strong><h2>Obtén videos de personas reales<br>
-							utilizando tu sitio web, en 1 hora</h2></strong>	
-						</div>
 					</div>
 					<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
 						<nav class="navbar navbar-static-top navbar-inverse" role="navigation" >
@@ -35,31 +31,53 @@
 		      				<div class="collapse navbar-collapse" id="myNavbar">
 		      					<a href="#sobremi"></a>
 		            			<ul class="nav navbar-nav">
-					                 <li> <a href="#">¿Que me ofece?</a></li>
-					                 <li> <a href="#">¿Cómo funciona?</a></li>
-					                 <li> <a href="#">¿Por qué usarlo?</a></li>
-					                 <li> <a href="#">Contáctanos</a></li>
+					                 <li> <a href="#ofrece">¿Que me ofece?</a></li>
+					                 <li> <a href="#funciona">¿Cómo funciona?</a></li>
+					                 <li> <a href="#usarlo">¿Por qué usarlo?</a></li>
+					                 <li> <a href="contact.html">Contáctanos</a></li>
 					            </ul>
 		       				</div>
 		       			</nav>
 					</div>
+					<div class="row mrg">
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+							<div class="jumbotron blnc animated bounceIn infinite">
+								<center><h5>Obtén videos de personas reales<br>
+								utilizando tu sitio web, en 1 hora</h5></center>	
+							</div>
+						</div>
+					</div>
 				</div>
 				<div class="row azul">
-					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 blnc">
-						<center><h2>PRUEBA GRATUITA</h2>
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 blnc">
+						<center><h5>PRUEBA GRATUITA</h5>
 						<p>Obtén un video gratis</p></center>
 					</div>
-					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-						<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 modl"><!--ventana modal-->
+						<center><button type="button" class="btn btn-info btn-lg " data-toggle="modal" data-target="#myModal">Pruebalo Gratis</button></center>
 					<div id="myModal" class="modal fade" role="dialog">
 						<div class="modal-dialog">
 							<div class="modal-content">
 								<div class="modal-header">
-									<button type="button" class="close" data-dismiss="modal">&times;</button>
-									<h4 class="modal-title">Modal Header</h4>
+									<button type="button" class="close" data-dismiss="modal"></button>
+									<h4 class="modal-title">Formulario User Testing 360</h4>
 								</div>
 								<div class="modal-body">
-									<p>Obtén tu primer video de 30 minutos gratis.</p>
+									<form>
+										<div class="form-group">
+											<label for="nombre">Nombre:</label>
+											<input type="nombre" class="form-control" id="nombre">
+										</div>
+										<div class="form-group">
+											<label for="mail">E-mail:</label>
+											<input type="email" class="form-control" id="mail">
+										</div>
+										<div class="form-group">
+											<label for="mail">Dejame tu URL:</label>
+											<textarea class="form-control" id="text-area" ></textarea>
+										</div>
+										<button type="submit" class="btn btn-default boto">Enviar E-mail</button>
+									</form>
 								</div>
 								<div class="modal-footer">
 									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -68,92 +86,175 @@
 						</div>
 					</div>
 					</div>
+				</div>
 				</header>
-				<section><!--comienza primera seccion-->
-					<div class="row">
-						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-							<h3 class="text-center aqua">Nuestros Servicios.</h3>
+				<section id="ofrece"><!--comienza primera seccion-->
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+						<h3 class="text-center aqua abjo mrgech animated tada infinite">Nuestros Servicios.</h3>
+					</div>
+				</div>
+				<div class="row mrg"><!--iconos con circulos-->
+					<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 ">
+						<center>
+						<span class="icon-video icon img-circle mrgech"></span>
+						<h3 class="mrge">Pruebalo Gratis</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, non laborum illum suscipit voluptates, et perferendis, impedit aliquam sunt eaque hic animi quaerat explicabo! Eligendi excepturi itaque at voluptatibus tempore.</p>
+						</center>
+					</div>
+					<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 ">
+						<center>
+						<span class="icon-magnifying-glass icon img-circle mrgech"></span>
+						<h3 class="mrge">Compra el servicio completo</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, excepturi, ex. Excepturi quis odit fugiat! Minima tempora beatae dolorem nam modi alias maiores doloribus, nulla. Nemo magnam, fugit commodi aspernatur.</p>
+						</center>
+					</div>
+					<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 ">
+						<center>
+						<span class="icon-documents icon img-circle mrgech"></span>
+						<h3 class="mrge">Obten el resultado en un día</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam provident incidunt, illum consequatur sequi fuga harum ipsam vitae voluptatibus! Alias dolor aperiam inventore nobis eum sit ea pariatur cupiditate laboriosam.</p>
+						</center>
+					</div>
+				</div>
+				<div class="row mrg"><!--separador de flechas-->
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+						<hr><center><img src="image/separador.png" class="animated bounceOut infinite" alt="separador"></center>
+					</div>
+				</div>
+			</section>
+			<section id="funciona"><!--seccion 2-->
+				<div class="row mrg">
+					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+						<h4>Ejemplo de <img src="image/logo-2.jpg" class="logo image-responsive" alt="logo2"></h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id fugiat perspiciatis officiis, minima rem magni placeat in veniam quo expedita</p>
+						<a href="http://mimediamanzana.com/">mimediamanzana.com</a>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur et nam at debitis alias libero magni assumenda soluta, reprehenderit quasi natus laudantium nulla atque eum delectus repellat, nisi sunt esse.</p>
+						<center><img src="image/flecha.png"></center>
+					</div>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+						<iframe width="490" height="370" src="http://www.youtube.com/embed/u7MDfG9ZJTU" frameborder="0" allowfullscreen="allowfullscreen" data-link="http://www.youtube.com/watch?v=u7MDfG9ZJTU class="embed-responsive iframe" "></iframe>
+					</div>
+				</div>
+				<div class="row mrg"><!--imágenes en círculos-->
+					<div class="hidden-xs hidden-sm col-md-6 col-lg-6 animated rubberBand infinite">
+						<img src="image/sec-2.jpg" class="bgo" alt="computadora">
+					</div>
+					<div class="hidden-xs hidden-sm col-md-1 col-lg-1">
+						<div class="bolitas img-circle matop">
+							<span class="icon-pencil"></span>
+						</div>
+						<div class="bolitas img-circle">
+							<span class="icon-tools"></span>
+						</div>
+						<div class="bolitas img-circle">
+							<span class="icon-magnifying-glass"></span>
 						</div>
 					</div>
-					<div class="row">
-						<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-							<center>
-							<img src="image/reproductor-de-video.png" class="img-circle" alt="video">
-							<h3>Pruebalo Gratis</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, non laborum illum suscipit voluptates, et perferendis, impedit aliquam sunt eaque hic animi quaerat explicabo! Eligendi excepturi itaque at voluptatibus tempore.</p>
-							</center>
-						</div>
-						<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-							<center>
-							<img src="image/reloj.png" class="img-circle" alt="reloj">
-							<h3>Compra el servicio completo</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, excepturi, ex. Excepturi quis odit fugiat! Minima tempora beatae dolorem nam modi alias maiores doloribus, nulla. Nemo magnam, fugit commodi aspernatur.</p>
-							</center>
-						</div>
-						<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-							<center>
-							<span class="icon-documents icon img-circle"></span>
-							<h3>Obten el resultado en un día</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam provident incidunt, illum consequatur sequi fuga harum ipsam vitae voluptatibus! Alias dolor aperiam inventore nobis eum sit ea pariatur cupiditate laboriosam.</p>
-							</center>
-						</div>
+					<div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+						<hr>
+						<h2>Lo quiero ¿Qué hago?</h2>
+						<h3>Paso 1, envíanos tu link</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga suscipit sit facilis, quia provident dicta maxime quos aperiam mollitia dolor facere optio, aut sapiente repudiandae? Dolore hic iusto quidem molestiae!</p>
+						<h3>Paso 2, suscríbete a tu público objetivo</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						<ul>
+							<li>Lorem ipsum dolor sit amet</li>
+							<li>explicabo quaerat laudantium reiciendis laborum</li>
+							<li>Sapiente expedita suscipit impedit rerum.</li>
+						<h3>Paso 3, recibe video y feedback completo.</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga suscipit sit facilis, quia provident dicta maxime quos aperiam mollitia dolor facere optio, aut sapiente repudiandae? Dolore hic iusto quidem molestiae!</p>
+						</ul>
+						<hr>
 					</div>
-					<div class="row">
-						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<hr>
+					
+				</div>
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 						<center><img src="image/separador.png" class="" alt="separador"></center>
-						</div>
+						<hr>
 					</div>
-				</section>
-				<section><!--seccion 2-->
-					<div class="row">
-						<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-							<h4>Ejemplo de <img src="image/logo-2.jpg" class="" alt="logo2"></h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id fugiat perspiciatis officiis, minima rem magni placeat in veniam quo expedita</p>
-							<a href="http://mimediamanzana.com/">mimediamanzana.com</a>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur et nam at debitis alias libero magni assumenda soluta, reprehenderit quasi natus laudantium nulla atque eum delectus repellat, nisi sunt esse.</p>
-							<center><img src="image/flecha.png"></center>
-						</div>
-						<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-							<iframe width="490" height="370" src="http://www.youtube.com/embed/u7MDfG9ZJTU" frameborder="0" allowfullscreen="allowfullscreen" data-link="http://www.youtube.com/watch?v=u7MDfG9ZJTU"></iframe>
-						</div>
+					
+				</div>
+				</div>
+			</section>
+			<section id="usarlo">
+				<div class="row">
+					<div class="hidden-xs hidden-6 col-md-6 col-lg-6">
+						<h4>Por qué usar <img src="image/logo-2.jpg " class="logo image-responsive" alt="logo2"></h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id fugiat perspiciatis officiis, minima rem magni placeat in veniam quo expedita<a href="http://mimediamanzana.com/">User Tasting</a>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur et nam at debitis alias libero magni assumenda soluta, reprehenderit quasi natus <a href="http://mimediamanzana.com/">User Tasting</a>, nisi sunt esse.</p>
+						<ul>
+							<li>Lorem ipsum dolor sit amet.</li>
+							<br>
+							<li>Lorem ipsum dolor sit amet.</li>
+							<br>
+							<li>Lorem ipsum dolor sit amet.</li>
+						</ul>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo fugiat non molestias similique facere, ipsa possimus, quibusdam nesciunt <a href="http://mimediamanzana.com/">User Tasting</a> dolores eos dolorum impedit itaque recusandae magni ipsam.</p>
+					</div>	
+					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+						<img src="image/banner.jpg" class="imgx" alt="hombre computadora">
 					</div>
-					<div class="row">
-						<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-							<img src="image/sec-2.jpg" class="bgo" alt="computadora">
-						</div>
-						<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
-							<div class="bolitas img-circle">
-								<img src="image/editar.png" class="bgo" alt="lapiz">
+				</div>
+				<div class="row azul">
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 blnc">
+						<center><h5 class="animated fadeIn infinite">PRUEBA GRATUITA</h5>
+						<p>Obtén un video gratis</p></center>
+					</div>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+						<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Pruebalo Gratis</button>
+						<div id="myModal" class="modal fade" role="dialog">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header">
+										<center><button type="button" class="close" data-dismiss="modal">&times;</button></center>
+										<h4 class="modal-title">Suscríbete</h4>
+									</div>
+									<div class="modal-body">
+										<form>
+										<div class="form-group">
+											<label for="email">Email address:</label>
+											<input type="email" class="form-control" id="email">
+										</div>
+										<div class="form-group">
+											<label for="pwd">Password:</label>
+											<input type="password" class="form-control" id="pwd">
+										</div>
+										<div class="checkbox">
+											<label><input type="checkbox"> Remember me</label>
+										</div>
+										<button type="submit" class="btn btn-default">Submit</button>
+										</form
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-default btn-lg" data-dismiss="modal">Close</button>
+									</div>
+									</div>
+								</div>
 							</div>
-							<div class="bolitas img-circle">
-								<img src="image/llave-y-destornillador-en-cruz.png" class="bgo" alt="herramientas">
-							</div>
-							<div class="bolitas img-circle">
-								<span class="icon-magnifying-glass"></span>
-							</div>
-							<center><img src="image/separador.png" class="" alt="separador"></center>
-						</div>
-						<div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
-							<h3>Lo quiero ¿Qué hago?</h3><!--faltan h y p-->
-
-						</div>
-						<div class="row">
-						<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-							<h4>Ejemplo de <img src="image/logo-2.jpg" class="logo" alt="logo2"></h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id fugiat perspiciatis officiis, minima rem magni placeat in veniam quo expedita</p>
-							<a href="http://mimediamanzana.com/">mimediamanzana.com</a>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur et nam at debitis alias libero magni assumenda soluta, reprehenderit quasi natus laudantium nulla atque eum delectus repellat, nisi sunt esse.</p>
-							<center><img src="image/flecha.png"></center>
-						</div>
-						<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-							<img src="image/banner.jpg" class="imgx" alt="">
 						</div>
 					</div>
+				</div>
+			</section>
+				<footer id="contacto">
+					<div class="row blnc mrg">
+						<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+							<p>Escribenos a:</p>
+							<a href="experienciadeusuario.lab@gmail.com">experienciadeusuario.lab@gmail.com</a>
+							<p>Tel: 554087-2630</p>
+						</div>
+						<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+							<a href="https://www.facebook.com/"><span class="icon-facebook icn"></span></a>
+							<a href="https://twitter.com/?lang=es"><span class="icon-twitter icn"></span></a>
+						<p>Copyright© 2015-User Testing 360</p>
+						</div>
 					</div>
-				</section>
-
+			</footer>
 			
 		</div>
+			
 
  	<script src="js/jquery.js"></script>
  	<script src="js/bootstrap.min.js"></script>	
